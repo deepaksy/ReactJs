@@ -36,7 +36,7 @@
 - Portion of your page or a complete application can be developed using React.
 - React native is avaiable for mobile applications.
 
-## **Pre-requisites: -**
+## **Pre-requisites before React: -**
 
 - HTML,CSS and JavaScript fundamentals.
 - ES6(ECMA Script 6)
@@ -49,5 +49,10 @@
 ![React-Road-map](./assets/react-roadmap.jpg)
 <center><figcaption>React Road map</figcaption></center>
 </figure>
+
+## Pre-requisite for React: -
+
+- Node Js
+- IDE(text editor)
 
 <center> <em><i>Made with love - Deepak Suryawanshi</i></em></center>
