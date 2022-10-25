@@ -1,9 +1,4 @@
-
 # React
-
-*A repository for ReactJs learning enthusiast.*
-
-
 
     React is a Javascript library for building user-interfaces
 
@@ -49,5 +44,3 @@
 ![React-Road-map](./assets/react-roadmap.jpg)
 <center><figcaption>React Road map</figcaption></center>
 </figure>
-
-<center> <em><i>Made with love - Deepak Suryawanshi</i></em></center>
