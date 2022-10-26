@@ -11,47 +11,57 @@ import ClassCounter from './topics/state/ClassCounter';
 import ClassDesctructuring from './topics/destructuring/ClassDesctructuring';
 import FunctionClick from './topics/event/FunctionClick';
 import ClassClick from './topics/event/ClassClick';
+import ThemeHelper from './components/theme/ThemeHelper';
 function App() {
   return (
     <div className="App">
-      <section id="classComponent">
-        <h1>Class Component: -</h1>
+      <div>
+        <ThemeHelper/>
+      </div>
+      <section className='section' id="classComponent">
+        <h1 className="heading">Class Component: -</h1>
         <ClassComponent/>
       </section>
-      <section id="functionalComponent">
-      <h1>Functional Component: -</h1>
+
+      <section className='section' id="functionalComponent">
+      <h1 className="heading">Functional Component: -</h1>
       <FunctionalComponents/>
       </section>
-      <section id="ecmaScript">
-        <h1>ECMA Script 6</h1>
+
+      <section className='section' id="ecmaScript">
+        <h1 className="heading">ECMA Script 6</h1>
       </section>
-      <section id="jsx">
-        <h1>With JSX</h1>
+
+      <section className='section' id="jsx">
+        <h1 className="heading">With JSX</h1>
         <JSX/>
-        <h1>without JSX</h1>
+        <h1 className="heading">without JSX</h1>
         <WithoutJSX/>
       </section>
-      <section id='props'>
-        <h1>Class Props</h1>
+
+      <section className='section' id='props'>
+        <h1 className="heading">Class Props</h1>
         <Classprops name="Deepak"/>
-        <h1>Functional Props</h1>
+        <h1 className="heading">Functional Props</h1>
         <FunctionalProps name="Deepak"/>
       </section>
-      <section id='state'>
-        <h1>Class State</h1>
+
+      <section className='section' id='state'>
+        <h1 className="heading">Class State</h1>
         <ClassStateComponent/>
         <h2>Class Counter</h2>
         <ClassCounter/>
       </section>
-      <section id='destructuring'>
-        <h1>Class Destructuring</h1>
+
+      <section className='section' id='destructuring'>
+        <h1 className="heading">Class Destructuring</h1>
         <ClassDesctructuring name="Clark" heroName='Batman'/>
       </section>
       
-      <section id='eventHandling'>
-        <h1>Function Events</h1>
+      <section className='section' id='eventHandling'>
+        <h1 className="heading">Function Events</h1>
         <FunctionClick/>
-        <h1>Class Events</h1>
+        <h1 className="heading">Class Events</h1>
         <ClassClick/>
       </section>
     </div>

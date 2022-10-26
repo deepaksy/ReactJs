@@ -18,9 +18,15 @@ const secondRoot=ReactDOM.createRoot(
 )
 
 secondRoot.render(
-  <>
+  <div style={{
+    borderWidth:'thin',
+    borderStyle:'solid',
+    borderColor:'var(--textColor)',
+    padding:'10px',
+    margin:'10px'
+  }}>
   <h1>This is from second Root.</h1>
-  </>
+  </div>
 )
 
 // If you want to start measuring performance in your app, pass a function
