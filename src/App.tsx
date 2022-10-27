@@ -12,6 +12,12 @@ import ClassDesctructuring from './topics/destructuring/ClassDesctructuring';
 import FunctionClick from './topics/event/FunctionClick';
 import ClassClick from './topics/event/ClassClick';
 import ThemeHelper from './components/theme/ThemeHelper';
+import EventBind from './topics/binding_event_handlers/EventBind';
+import ParentComponent from './topics/methods_as_props/ParentComponent';
+import UserGreeting from './topics/conditional_rendering/UserGreeting';
+import NameList from './topics/list_rendering/NameList';
+import Stylesheet from './topics/styling_css/Stylesheet';
+import Form from './topics/form_handling/Form';
 function App() {
   return (
     <div className="App">
@@ -63,6 +69,34 @@ function App() {
         <FunctionClick/>
         <h1 className="heading">Class Events</h1>
         <ClassClick/>
+      </section>
+
+      <section className='section' id='bindingEventHandlers'>
+        <h1 className='heading'>Event Binding</h1>
+        <EventBind />
+      </section>
+
+      <section className="section" id="methodAsProps">
+        <h1 className="heading">Method as Props</h1>
+        <ParentComponent/>
+      </section>
+      
+      <section className="section" id="conditionalRendering">
+        <h1 className="heading">Conditional Rendering</h1>
+        <UserGreeting isLoggedIn={false}/>
+      </section>
+
+      <section className="section" id="listRendering">
+        <NameList/>
+      </section>
+      <section className="section" id="styleSheetsCss">
+        <h1>Styling and CSS Basics</h1>
+        <Stylesheet primary={true}/>
+      </section>
+
+      <section className="section" id="formHandling">
+        <h1>Form Handling</h1>
+        <Form/>
       </section>
     </div>
   );
